@@ -18,7 +18,7 @@ Ensure you have the following prepared and installed on your machine
 3. [ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
 4. username and password provided by acloudguru azure sandbox (or your own azure account)
 
-### running terraform and ansible
+### Running Terraform and Ansible
 
 #### Git clone the repo
 
