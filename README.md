@@ -43,7 +43,7 @@ In your terminal (you should be in the `challenge-gitlab` folder):
 2. `terraform init`
 3. `terraform plan`
 4. `terraform apply --auto-approve`
-5. When completed, refresh your Azure porta. Resources should have successfully deployed and three files (`inventory`, `fqdn`, `password`) will be generated in the working directory.
+5. When completed, refresh your Azure portal. Resources should have successfully deployed and three files (`inventory`, `fqdn`, `password`) will be generated in the working directory.
 
 #### Running Ansible playbook `main.yml`
 
