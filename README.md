@@ -6,9 +6,9 @@ This challenge is to automate the [installation of gitlab on microsoft auzre](ht
 
 Prior to this, previous learners have completed the challenge. For the ease of completing this challenge, we will `git clone` from (https://github.com/vysky/challenge-gitlab) and run the Terraform and Ansible Playbook from here.
 
-## getting started
+## Getting started
 
-### prerequisites
+### Pre-requisites
 
 Ensure you have the following prepared and installed on your machine
 
