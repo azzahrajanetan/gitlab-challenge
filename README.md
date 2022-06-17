@@ -6,9 +6,9 @@ This challenge is to automate the [installation of gitlab on microsoft auzre](ht
 
 Prior to this, previous learners have completed the challenge. For the ease of completing this challenge, we will `git clone` from (https://github.com/vysky/challenge-gitlab) and run the Terraform and Ansible Playbook from here.
 
-## getting started
+## Getting started
 
-### prerequisites
+### Pre-requisites
 
 Ensure you have the following prepared and installed on your machine
 
@@ -18,7 +18,7 @@ Ensure you have the following prepared and installed on your machine
 3. [ansible](https://docs.ansible.com/ansible/latest/installation_guide/index.html)
 4. username and password provided by acloudguru azure sandbox (or your own azure account)
 
-### running terraform and ansible
+### Running Terraform and Ansible
 
 #### Git clone the repo
 
@@ -43,7 +43,7 @@ In your terminal (you should be in the `challenge-gitlab` folder):
 2. `terraform init`
 3. `terraform plan`
 4. `terraform apply --auto-approve`
-5. When completed, refresh your Azure porta. Resources should have successfully deployed and three files (`inventory`, `fqdn`, `password`) will be generated in the working directory.
+5. When completed, refresh your Azure portal. Resources should have successfully deployed and three files (`inventory`, `fqdn`, `password`) will be generated in the working directory.
 
 #### Running Ansible playbook `main.yml`
 
