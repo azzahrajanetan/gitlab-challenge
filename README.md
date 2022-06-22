@@ -72,7 +72,7 @@ Congratulations! You have successfullu completed the challenge.
 #### Terraform destroy and cleaning up
 1. In terminal, type `terraform destroy --auto-approve` to destroy the resources created and files generated on local machine
 
-## Further reading from Brandon (https://github.com/vysky/challenge-gitlab)
+## Further reading from Brendan (https://github.com/vysky/challenge-gitlab)
 
 ### finding the publisher, offer and sku of image
 
