@@ -51,15 +51,15 @@ Ensure you have `sshpass` installed in your terminal.
 
 - For Mac users, run `ansible-playbook main.yml`.
 
-- For Windows users, you can run the playbook in a few ways to `ssh` into the public ip.
+- For Windows users, you can run the playbook in a 2 ways to `ssh` into the public ip:
 
-##### Method 1
-Run `ansible-playbook --ask-pass main.yml` and key in the password from the `password` file (which should be Qwerty123456!).
+>##### Method 1
+>Run `ansible-playbook --ask-pass main.yml` and key in the password from the `password` file (which should be Qwerty123456!).
 
-##### Method 2
-1. Edit the `inventory` file. 
-2. Add in `ansible_ssh_password=Qwerty123456!` after the IP address.
-3. Run `ansible-playbook main.yml`
+>##### Method 2
+>1. Edit the `inventory` file. 
+>2. Add in `ansible_ssh_password=Qwerty123456!` after the IP address.
+>3. Run `ansible-playbook main.yml`
 
 If `ansible-playbook` is successful, a Gitlab 'root' and 'password' will be generated as one of the debug message from the playbook.
 
